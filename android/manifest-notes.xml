@@ -1,0 +1,12 @@
+<!-- Notes only: merge appropriate declarations into your actual AndroidManifest.xml.
+     Exact foreground-service declarations depend on your target SDK. Consult the
+     current Android MediaProjection documentation before building for release.
+
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+
+Your service should declare:
+android:foregroundServiceType="mediaProjection"
+
+Do not add accessibility-service permissions or hidden-capture mechanisms.
+-->

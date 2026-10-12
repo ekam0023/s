@@ -1,0 +1,15 @@
+{
+  "name": "consent-screen-share-signaling",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter signaling server for a consent-based screen-sharing app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
